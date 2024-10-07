@@ -14,7 +14,7 @@ export default function Taskfield() {
     const maxLength = 70;
 
     return (
-      <div>
+      <div className="main-content">
         <div className="container mb-5">
           <div className="animated-pic">
             <Image height={150} width={100} src="/raccoon.png" alt="pixel raccoon"/>
@@ -50,7 +50,7 @@ export default function Taskfield() {
                         <div key={value} className="center-tasks">
                             <p className="m-0"> {value} </p>
                             <button className="resetbtnstyle" onClick={() => deleteTask(value)}>
-                                <Image height={40} width={40} alt="heart" src="/heart.png"/>
+                                <Image height={30} width={30} alt="/heart.png" src="/close.png"/>
                             </button>
                         </div>
                     );
