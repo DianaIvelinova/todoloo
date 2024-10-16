@@ -68,22 +68,16 @@ a {
   align-items: center;
 }
 
-.home-text {
-  font-size: 20px;
-  text-align: center;
-  color:#805bae;
-}
-
-.title {
-  z-index: 0;
-  padding-top: 0;
-  will-change: opacity;
-  opacity: 1;
-}
-
 .h1 h1 {
   color: #ffffff;
   text-align: center;
+  font-size: 120px;
+}
+
+.home-text {
+  font-size: 27px;
+  text-align: center;
+  color:#805bae;
 }
 
 /* HOME BUTTON */
